@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MILLER - Premium Hair Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="IMG_1349.png" alt="MILLER Logo" class="logo-img">
+            </div>
+            <div class="nav-links">
+                <a href="#products">Изделия</a>
+                <a href="#about">О нас</a>
+                <a href="#testimonials">Отзывы</a>
+                <a href="#contact">Контакты</a>
+            </div>
+            <div class="contact-info">
+                <a href="tel:+77027096220" class="phone">+7 702 709 6220</a>
+                <a href="https://t.me/millerwig" class="telegram">Telegram</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Block 1: Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">MILLER</h1>
+                <h2 class="hero-subtitle">Premium Hair Systems</h2>
+                <p class="hero-description">Изделия из натуральных отборных волос премиум класса. Ручная работа опытных постижеров.</p>
+            </div>
+            <div class="hero-image">
+                <img src="IMG_1356.png" alt="Premium Hair System" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Block 2: Consultation -->
+    <section class="consultation">
+        <div class="container">
+            <h2 class="section-title">Выберем изделие вместе?</h2>
+            <div class="consultation-buttons">
+                <button class="btn btn-primary" onclick="startTest()">Пройти тест</button>
+                <button class="btn btn-secondary" onclick="openConsultation()">Личная консультация</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Block 3: Products -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">ВЫБЕРИТЕ СВОЕ ИЗДЕЛИЕ</h2>
+            
+            <div class="product-categories">
+                <!-- Hair Systems -->
+                <div class="product-category">
+                    <h3 class="category-title">Система волос</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <h4>30-35 см</h4>
+                            <div class="product-options">
+                                <div class="option">
+                                    <span class="option-name">Кутюр</span>
+                                    <span class="option-price">2010$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Классик</span>
+                                    <span class="option-price">980$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Эксклюзив</span>
+                                    <span class="option-price">1330$</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <h4>40-45 см</h4>
+                            <div class="product-options">
+                                <div class="option">
+                                    <span class="option-name">Кутюр</span>
+                                    <span class="option-price">2600$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Классик</span>
+                                    <span class="option-price">1330$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Эксклюзив</span>
+                                    <span class="option-price">1610$</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <h4>50-55 см</h4>
+                            <div class="product-options">
+                                <div class="option">
+                                    <span class="option-name">Кутюр</span>
+                                    <span class="option-price">2930$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Классик</span>
+                                    <span class="option-price">1510$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Эксклюзив</span>
+                                    <span class="option-price">1790$</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <h4>60-65 см</h4>
+                            <div class="product-options">
+                                <div class="option">
+                                    <span class="option-name">Кутюр</span>
+                                    <span class="option-price">3630$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Классик</span>
+                                    <span class="option-price">1430$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Эксклюзив</span>
+                                    <span class="option-price">2480$</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-descriptions">
+                        <div class="description-card">
+                            <h4>Кутюр</h4>
+                            <p>VIP система замещения волос из запатентованного шелкового тюля по 3D слепку головы. Точная копия роста волос. Ручная работа опытных постижеров. Пожизненная гарантия + 12 месяцев сервисного ухода.</p>
+                        </div>
+                        <div class="description-card">
+                            <h4>Классик</h4>
+                            <p>Система замещения волос из Индийских отборных волос премиум класса. Выполняется по классическим меркам/слепку головы. Ручная работа опытных постижеров. Изготовлена из классического гипоаллергенного постижерного тюля.</p>
+                        </div>
+                        <div class="description-card">
+                            <h4>Эксклюзив</h4>
+                            <p>Классическая полусистема волос (узелки только по краевой линии роста волос, внутри состоит из тресс ручной работы). Выполняется из постижерного тюля по меркам. Работа опытных постижеров.</p>
+                        </div>
+                    </div>
+
+                    <div class="additional-options">
+                        <h4>Дополнительные опции:</h4>
+                        <div class="options-grid">
+                            <div class="option-item">Шелковая вставка + 380$</div>
+                            <div class="option-item">Славянский волос + 210$</div>
+                            <div class="option-item">Детский волос + 380$</div>
+                            <div class="option-item">Окрашивание + 66$</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hair Accessories -->
+                <div class="product-category">
+                    <h3 class="category-title">Аксессуары</h3>
+                    <div class="accessories-grid">
+                        <div class="accessory-card">
+                            <h4>Накладка на макушку</h4>
+                            <div class="accessory-options">
+                                <div class="option">
+                                    <span class="option-name">Мини</span>
+                                    <span class="option-price">510$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Макси</span>
+                                    <span class="option-price">715$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Глубокая</span>
+                                    <span class="option-price">962$</span>
+                                </div>
+                            </div>
+                            <p>Накладка на макушку из натуральных Индийских отборных волос, на запатентованном шелковом тюле. Полностью решает вопрос поредевшей макушки, добавления объема и длины.</p>
+                        </div>
+
+                        <div class="accessory-card">
+                            <h4>Хвост накладной</h4>
+                            <div class="accessory-options">
+                                <div class="option">
+                                    <span class="option-name">50 см</span>
+                                    <span class="option-price">460$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">60 см</span>
+                                    <span class="option-price">535$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">70 см</span>
+                                    <span class="option-price">610$</span>
+                                </div>
+                            </div>
+                            <p>Накладной аксессуар из натуральных отборных Индийских волос.</p>
+                        </div>
+
+                        <div class="accessory-card">
+                            <h4>Другие аксессуары</h4>
+                            <div class="accessory-options">
+                                <div class="option">
+                                    <span class="option-name">Челка</span>
+                                    <span class="option-price">270$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Пучок</span>
+                                    <span class="option-price">150$</span>
+                                </div>
+                                <div class="option">
+                                    <span class="option-name">Краб</span>
+                                    <span class="option-price">470$</span>
+                                </div>
+                            </div>
+                            <p>Изготавливаются из отборных индийских волос по индивидуальным меркам.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Block 4: Facts -->
+    <section class="facts">
+        <div class="container">
+            <h2 class="section-title">Немного фактов о нас</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-icon">🌍</div>
+                    <h3>Оптовые заказы</h3>
+                    <p>MILLER создают изделия для партнеров из Кореи, Америки и России</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">🏆</div>
+                    <h3>Запатентованные материалы</h3>
+                    <p>Работаем на шелковом постижерном тюле «couture». Данный материал имеется только у 3 людей в мире и мы в их числе</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">❤️</div>
+                    <h3>Благотворительность</h3>
+                    <p>10% от каждого заказа идут в помощь детям проходящим непростой период реабилитации после онкологии</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">⭐</div>
+                    <h3>Звездные клиенты</h3>
+                    <p>Более 40 знаменитостей выбрали нас в качестве постоянного производителя</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">👥</div>
+                    <h3>Команда</h3>
+                    <p>Мы хотели дать лучшие условия труда для женщин. На сегодня в команде трудятся больше 40 человек, каждая из них имеет возможность находиться дома рядом с детьми и зарабатывать</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Block 5: Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">О нас говорят</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Невероятное качество! Ношу уже год, выглядит как натуральные волосы. Команда MILLER - профессионалы своего дела."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Анна К.</strong>
+                        <span>Клиент</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Лучший сервис и качество изделий. Персональный подход к каждому клиенту. Рекомендую всем!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Мария С.</strong>
+                        <span>Клиент</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Запатентованный материал действительно уникален. Изделие очень комфортное и выглядит естественно."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Елена В.</strong>
+                        <span>Клиент</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Block 6: Work Process -->
+    <section class="work-process">
+        <div class="container">
+            <h2 class="section-title">Этапы работы</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Выбор изделия и консультация</h3>
+                        <p>На сайте можно ознакомиться с ценами, подобрать изделие. Если возникают сложности, вы можете связаться с нами лично и обсудить все детали заказа. Мы можем провести онлайн консультацию удобным для вас способом (видеозвонок/текстовые или аудиосообщения).</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Выполнение заказа</h3>
+                        <p>После утверждения деталей заказа и бронирования места на изготовление команда приступает к выполнению заказа. Вы имеете полное право на любом этапе выполнения запросить фото/видео подтверждения процесса изготовления.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Передача изделия</h3>
+                        <p>После выполнения заказа к назначенной дате и утверждения готового изделия мы передаем изделие в фирменной упаковке (возможна конфиденциальная/подарочная упаковка) транспортной компании или лично в руки.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Block 7: FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Как долго изготавливается изделие?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Время изготовления зависит от сложности изделия и составляет от 2 до 4 недель. Мы всегда информируем о точных сроках при оформлении заказа.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Какой материал используется?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Мы используем запатентованный шелковый постижерный тюль «couture», который имеется только у 3 людей в мире. Также работаем с классическим гипоаллергенным тюлем.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Есть ли гарантия?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>На изделия класса "Кутюр" предоставляется пожизненная гарантия + 12 месяцев сервисного ухода. На остальные изделия - гарантия согласно стандартам отрасли.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Можно ли окрашивать изделие?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, мы предоставляем услугу окрашивания за дополнительную плату. Однотонные оттенки не требуют доплаты, сложные техники окрашивания - +66$.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Как происходит консультация?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Мы проводим онлайн консультации удобным для вас способом: видеозвонок, текстовые или аудиосообщения. Можем помочь подобрать идеальное изделие для ваших потребностей.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Телефон</h3>
+                    <a href="tel:+77027096220">+7 702 709 6220</a>
+                    <p>RUS/UKR/ENG</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Telegram</h3>
+                    <a href="https://t.me/millerwig">@millerwig</a>
+                    <p>ENG/FR/ED/KO/ESP/RUS</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Штаб-квартира</h3>
+                    <p>Казахстан, г. Алматы 050060</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Региональный офис</h3>
+                    <p>7 Cheyenne Walk, Chelsea, London, United Kingdom</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="IMG_1350.png" alt="MILLER Logo" class="footer-logo-img">
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2024 MILLER Premium Hair Systems. Все права защищены.</p>
+                    <p>Изделия из натуральных отборных волос премиум класса</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
