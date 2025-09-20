@@ -340,7 +340,7 @@ function openConsultation(productName = '') {
         `Здравствуйте! Меня интересует консультация по изделию: ${productName}` :
         'Здравствуйте! Меня интересует консультация по выбору изделия.';
     
-    const telegramUrl = `https://t.me/millerwig?text=${encodeURIComponent(message)}`;
+    const telegramUrl = `https://t.me/example_wig_shop?text=${encodeURIComponent(message)}`;
     window.open(telegramUrl, '_blank');
 }
 
